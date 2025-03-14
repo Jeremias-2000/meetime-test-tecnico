@@ -3,7 +3,7 @@
 Este repositório contém a integração com a API do HubSpot, utilizando OpenFeign para a comunicação com o webhook e Resilience4j para gerenciar o rate limit e a estratégia de retries. Siga as instruções abaixo para configurar e rodar o projeto.
 
 ---
-![img.png](img.png)
+![img_1.png](img_1.png)
 ---
 ## Passos para instalação
 
