@@ -1,4 +1,4 @@
-package com.example.meetime_case_tecnico.integration.dto;
+package com.example.meetime_case_tecnico.integration.dto.auth;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

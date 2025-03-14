@@ -1,9 +1,9 @@
 package com.example.meetime_case_tecnico.integration;
 
 import com.example.meetime_case_tecnico.config.FeignConfig;
-import com.example.meetime_case_tecnico.integration.dto.AuthRefreshTokenRequest;
-import com.example.meetime_case_tecnico.integration.dto.AuthTokenResponse;
-import com.example.meetime_case_tecnico.integration.dto.OauthCallbackResponse;
+import com.example.meetime_case_tecnico.integration.dto.auth.AuthRefreshTokenRequest;
+import com.example.meetime_case_tecnico.integration.dto.auth.AuthTokenResponse;
+import com.example.meetime_case_tecnico.integration.dto.auth.OauthCallbackResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
