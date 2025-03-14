@@ -10,12 +10,10 @@ import org.springframework.web.bind.annotation.*;
 @FeignClient(name = "webhook",url = "${auth.hubspot.url}/webhooks",configuration = FeignConfig.class)
 public interface WebhookClient {
 
-    //   201
     @PostMapping("/v3/{appId}/subscriptions")
     SignatureEventResponseDto registerEventSignature (@PathVariable("appId") String appId, @RequestBody WebhookSignatureDto dto,
                                                       @RequestHeader("api-key") String apikey);
 
-    // 200
     @GetMapping("/v3/{appId}/subscriptions")
     ListSignatureEventDto listenSubscriptionEvents(@PathVariable("appId") String appId
                                 , @RequestHeader("api-key") String apikey);
