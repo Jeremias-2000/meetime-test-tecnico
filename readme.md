@@ -3,7 +3,7 @@
 Este repositório contém a integração com a API do HubSpot, utilizando OpenFeign para a comunicação com o webhook e Resilience4j para gerenciar o rate limit e a estratégia de retries. Siga as instruções abaixo para configurar e rodar o projeto.
 
 ---
-![img_1.png](img_1.png)
+![img_1.png](src/main/resources/img/img_1.png)
 ---
 
 ## Passos para instalação
@@ -26,11 +26,11 @@ Este repositório contém a integração com a API do HubSpot, utilizando OpenFe
 1. Na aba de debug, crie um arquivo `launch.json` com o seguinte conteúdo para configurar o ambiente:
 
 ---
-![img.png](img.png)
+![img.png](src/main/resources/img/img.png)
 ---
 
 ---
-![img_2.png](img_2.png)
+![img_2.png](src/main/resources/img/img_2.png)
 ---
 
 ```json
@@ -51,11 +51,11 @@ Este repositório contém a integração com a API do HubSpot, utilizando OpenFe
 ### **Intellij Idea**
 
 ---
-![img_3.png](img_3.png)
+![img_3.png](src/main/resources/img/img_3.png)
 ---
 
 ---
-![img_4.png](img_4.png)
+![img_4.png](src/main/resources/img/img_4.png)
 ---
 
 ## Passos para criação de conta e configuração do HubSpot para funcionamento do desafio técnico
@@ -64,8 +64,21 @@ Este repositório contém a integração com a API do HubSpot, utilizando OpenFe
 1. Acesse o [HubSpot Developer Portal](https://developers.hubspot.com)
 2. Crie uma conta ou faça login se já tiver uma.
 3. Após o login, crie um novo aplicativo na seção "Apps".
-4. Configure o webhook para a sua API, fornecendo o endpoint correto para receber as chamadas.
-5. Obtenha a chave de API (API Key) do HubSpot e adicione ao seu arquivo .env com a chave HUBSPOT_API_KEY.
+4. Copie o clientId e clientSecret do seu app
+---
+![img_7.png](src/main/resources/img/img_7.png)
+---
+
+5. Configure o webhook para a sua API, fornecendo o endpoint correto para receber as chamadas.
+6. Obtenha a chave de API (API Key) do HubSpot e adicione ao seu arquivo .env com a chave HUBSPOT_API_KEY.
+
+---
+![img_5.png](src/main/resources/img/img_5.png)
+---
+
+---
+![img_6.png](src/main/resources/img/img_6.png)
+---
 
 ## Decisões Técnicas
 
