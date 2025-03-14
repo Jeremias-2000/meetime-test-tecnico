@@ -5,8 +5,8 @@ import com.example.meetime_case_tecnico.integration.dto.contact.CreateContactWra
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
-@FeignClient(value = "contact",url = "${auth.contact.url}/crm",configuration = FeignConfig.class)
-public interface ContactWebhookClient {
+@FeignClient(value = "contact",url = "${auth.hubspot.url}/crm",configuration = FeignConfig.class)
+public interface ContactCrmClient {
 
     @PostMapping("/v3/objects/contacts")
     void createContactCrm(@RequestBody CreateContactWrapperDto dto,@RequestHeader("api-key") String apikey

@@ -28,6 +28,7 @@ public class CustomErrorDecoder implements ErrorDecoder {
         return switch (status) {
             case 400 -> new MeetimeException(MensagemErro.ERRO_INTEGRACAO);
             case 401, 403 -> new MeetimeException(MensagemErro.ERRO_AUTORIZACAO);
+            case 429 -> new MeetimeException(MensagemErro.TAXA_REQUEST_EXCEDIDA);
             case 404 -> new MeetimeException(MensagemErro.ERRO_ROTA_NAO_ENCONTRADA);
             case 500 -> new MeetimeException(MensagemErro.ERRO_SERVIDOR);
             default -> defaultErrorDecoder.decode(methodKey, response);

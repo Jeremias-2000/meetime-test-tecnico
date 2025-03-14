@@ -12,7 +12,8 @@ public enum MensagemErro {
     ERRO_SERVIDOR("INFRA-1","ERRO_SERVIDOR","Ops houve um erro no serviço devido indisponibilidade por favor tentar mais tarde"),
     ERRO_INTEGRACAO("INFRA-2","ERRO_INTEGRACAO" , "Houve um erro ao realizar request na integracao"),
     ERRO_AUTORIZACAO("INFRA-3","ERRO_AUTORIZACAO" , "Há um erro de autorização na chamada"),
-    ERRO_ROTA_NAO_ENCONTRADA("INFRA-4", "ERRO_ROTA_NAO_ENCONTRADA", "Rota não encontrada");
+    ERRO_ROTA_NAO_ENCONTRADA("INFRA-4", "ERRO_ROTA_NAO_ENCONTRADA", "Rota não encontrada"),
+    TAXA_REQUEST_EXCEDIDA("NEGOCIO-1", "TAXA_REQUEST_EXCEDIDA","Você alcançou o limite diário." );
 
     private final String codigo;
     private final String mensagem;
