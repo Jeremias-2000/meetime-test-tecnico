@@ -48,6 +48,16 @@ Este repositório contém a integração com a API do HubSpot, utilizando OpenFe
 }
 ```
 
+### **Intellij Idea**
+
+---
+![img_3.png](img_3.png)
+---
+
+---
+![img_4.png](img_4.png)
+---
+
 ## Passos para criação de conta e configuração do HubSpot para funcionamento do desafio técnico
 ### **Configuração:**
 
