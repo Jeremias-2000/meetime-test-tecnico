@@ -7,8 +7,10 @@ spring:
 
 auth:
   hubspot:
-    url: ${HUBSPOT_AUTH_URL}
-    apikey: ${HUBSPOT_API_KEY}
+    url: ${HUB_API}
+    api-key: ${USER_API_KEY}
+    client_id: ${CLIENT_ID}
+    client_secret: ${CLIENT_SECRET}
 
 openapi:
   server:

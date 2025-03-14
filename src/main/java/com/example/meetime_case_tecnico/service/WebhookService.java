@@ -5,8 +5,7 @@ import com.example.meetime_case_tecnico.integration.dto.webhook.SignatureEventRe
 import com.example.meetime_case_tecnico.integration.dto.webhook.WebhookSignatureDto;
 
 public interface WebhookService {
-    SignatureEventResponseDto registerEventSignature (String appId, WebhookSignatureDto dto,
-                                 String apikey);
+    SignatureEventResponseDto registerEventSignature (String appId, WebhookSignatureDto dto);
 
     //api key nao ficar passando de uma lado para outro e sim guardado em um env
     ListSignatureEventDto listenSubscriptionEvents(String appId);
