@@ -73,3 +73,19 @@ Este repositório contém a integração com a API do HubSpot, utilizando OpenFe
 O OpenFeign oferece uma maneira simples de consumir APIs RESTful, sendo ideal para esse tipo de integração.
 2. Resilience4j para Rate Limiting e Retry: Para controlar o rate limit, tentativas e callbacks, optei por utilizar a dependência Resilience4j, 
 que é uma biblioteca de tolerância a falhas e oferece suporte fácil para circuit breakers, retries, rate limiting e bulkheads.
+
+
+crm documentation --> https://developers.hubspot.com/docs/guides/api/crm/using-object-apis
+https://developers.hubspot.com/docs/guides/api/crm/objects/contacts
+
+webhook documentation --> https://developers.hubspot.com/docs/guides/api/app-management/webhooks
+https://developers.hubspot.com/docs/reference/api/app-management/webhooks
+https://br.developers.hubspot.com/docs/reference/api/app-management/webhooks#post-%2Fwebhooks%2Fv3%2F%7Bappid%7D%2Fsubscriptions
+https://developers.hubspot.com/docs/guides/apps/api-usage/usage-details#rate-limits
+
+
+
+
+
+
+https://app.hubspot.com/oauth/authorize?client_id=b0c0fca2-4f12-4e87-945f-e2d82f818f5d&redirect_uri=http://localhost&scope=oauth&optional_scope=crm.objects.contacts.write%20crm.objects.contacts.read

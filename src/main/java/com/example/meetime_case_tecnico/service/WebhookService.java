@@ -8,9 +8,9 @@ public interface WebhookService {
     SignatureEventResponseDto registerEventSignature (String appId, WebhookSignatureDto dto,
                                  String apikey);
 
-    ListSignatureEventDto listenSubscriptionEvents(String appId, String apikey);
+    //api key nao ficar passando de uma lado para outro e sim guardado em um env
+    ListSignatureEventDto listenSubscriptionEvents(String appId);
 
-    SignatureEventResponseDto listenSignatureEvent(String appId,
-                                                   String subscriptionId,
-                                                   String apikey);
+    SignatureEventResponseDto listenSubscriptionEvent(String appId,
+                                                   String subscriptionId);
 }
