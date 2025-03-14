@@ -2,10 +2,17 @@ spring:
   application:
     name: meetime-case-tecnico
 
+  profiles:
+    active: ${ENVIRONMENT}
 
+auth:
+  hubspot:
+    url: ${HUBSPOT_AUTH_URL}
+    apikey: ${HUBSPOT_API_KEY}
+  contact:
+    url: ${CONTACT_URL}
 
-  auth:
-    hubspot:
-      url: ${HUBSPOT_AUTH_URL}
-    contact:
-      url: ${CONTACT_URL}
+openapi:
+  server:
+    local: ${LOCAL_URL}
+    prd: ${PROD_URL}
