@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: meetime-case-tecnico
+
+
+
+  auth:
+    hubspot:
+      url: ${HUBSPOT_AUTH_URL}
+    contact:
+      url: ${CONTACT_URL}
