@@ -5,6 +5,7 @@ Este repositório contém a integração com a API do HubSpot, utilizando OpenFe
 ---
 ![img_1.png](img_1.png)
 ---
+
 ## Passos para instalação
 
 1. **Baixar e extrair o projeto:**
