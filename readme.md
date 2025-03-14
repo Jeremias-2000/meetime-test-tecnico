@@ -2,8 +2,11 @@
 
 Este repositório contém a integração com a API do HubSpot, utilizando OpenFeign para a comunicação com o webhook e Resilience4j para gerenciar o rate limit e a estratégia de retries. Siga as instruções abaixo para configurar e rodar o projeto.
 
+## Swagger
+
+ - url: http://localhost:8080/swagger-ui/index.html
 ---
-![img_1.png](src/main/resources/img/img_1.png)
+![img.png](img.png)
 ---
 
 ## Passos para instalação

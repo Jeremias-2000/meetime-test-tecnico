@@ -13,12 +13,6 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.List;
 
-@SecurityScheme(
-        name = "bearerAuth",
-        type = SecuritySchemeType.HTTP,
-        scheme = "bearer",
-        bearerFormat = "JWT"
-)
 @Configuration
 public class SwaggerConfig {
     @Value("${openapi.server.local}")
