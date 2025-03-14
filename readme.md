@@ -25,6 +25,14 @@ Este repositório contém a integração com a API do HubSpot, utilizando OpenFe
 
 1. Na aba de debug, crie um arquivo `launch.json` com o seguinte conteúdo para configurar o ambiente:
 
+---
+![img.png](img.png)
+---
+
+---
+![img_2.png](img_2.png)
+---
+
 ```json
 {
   "version": "0.2.0",
