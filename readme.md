@@ -99,6 +99,8 @@ logo eu so precisei guardar de forma seguras as chaves de acesso
 2. Criação de um Dockerfile e docker-compose.yml
 3. Validar se os pontos de rate limit e Circuit Breaker foram colocados nos lugares corretos e com configuração correta
 4. Ter um dominio para teste (test.com.br) pois só fiz com base na documentação
+5. Pensando em alta carga de requests e indisponibilidade a configuracao de uma fila (SQS,Kafka) ajudaria
+ao sistema a guardar essa mensagem e quando volta-se fazer o processamento dela (considerando o endpoint de cadastro de contacts crm)
 
 ## Referências Utilizadas
 
