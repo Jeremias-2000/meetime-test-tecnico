@@ -102,6 +102,11 @@ logo eu so precisei guardar de forma seguras as chaves de acesso
 5. Pensando em alta carga de requests e indisponibilidade a configuracao de uma fila (SQS,Kafka) ajudaria
 ao sistema a guardar essa mensagem e quando volta-se fazer o processamento dela (considerando o endpoint de cadastro de contacts crm)
 
+## Passos para funcionamento
+1. Fazer o Login na aplicacao
+2. Ir no endpoint de cadastro assinatura webhook para notifica-lo que e necessario escutar as atualizacoes do "contact.creation"
+3. Fazer o cadastro do Contato
+
 ## Referências Utilizadas
 
 - **OAuth Token**:  
